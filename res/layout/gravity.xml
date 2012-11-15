@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_margin="20dp"
+              android:layout_gravity="center_horizontal"
+              android:gravity="center_horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/gravity_ex1"
+            android:text="Пример #1 - выравнивание элементов"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/gravity_ex2"
+            android:text="Пример #2 - выравнивание LinearLayout"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/gravity_ex3"
+            android:text="Пример #3 - примеры gravity"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/gravity_ex4"
+            android:text="Пример #4 - примеры комбинированного gravity"/>
+</LinearLayout>

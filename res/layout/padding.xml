@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="#fff"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#ccc"
+                  android:layout_marginBottom="5dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#000"
+                  android:text="Внутри контейнера текст без padding"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#ccc"
+                  android:layout_marginBottom="5dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#000"
+                  android:padding="10dp"
+                  android:text="Внутри контейнера текст с padding=10dp"/>
+    </LinearLayout>
+    <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="30dp"
+              android:text="paddingLeft = 30dp"/>
+    <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#000"
+              android:paddingBottom="30dp"
+              android:text="paddingBottom = 30dp"/>
+    <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#000"
+              android:paddingRight="30dp"
+              android:text="paddingRight = 30dp"/>
+    <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#000"
+              android:paddingTop="30dp"
+              android:text="paddingTop=30dp"/>
+    <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#000"
+              android:paddingLeft="30dp"
+              android:paddingTop="30dp"
+              android:text="paddingTop=30dp и paddingLeft=30"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Атрибут &quot;веса&quot; layout_weight"
+                    android:onClick="onClick"
+                    android:id="@+id/weight"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Атрибуты &quot;тяготения&quot; gravity и layout_gravity"
+                    android:onClick="onClick"
+                    android:id="@+id/gravity"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Атрибут &quot;выравнивания&quot; baselineAligned"
+                    android:id="@+id/baseline"
+                    android:onClick="onClick"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Атрибут &quot;выравнивания&quot; baselineAlignedChildIndex"
+                    android:onClick="onClick"
+                    android:id="@+id/baseline_child"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Атрибут layout_margin"
+                    android:onClick="onClick"
+                    android:id="@+id/margin"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Атрибут layout_padding"
+                    android:onClick="onClick"
+                    android:id="@+id/padding"
+                    />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
